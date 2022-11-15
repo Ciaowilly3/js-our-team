@@ -56,5 +56,5 @@ for (let i=0; i<membersArray.length; i++){
 }
 
 for (let i=0; i<membersArray.length; i++){
-    imgContainerEl.innerHTML += `<div class="text-center">${membersArray[i].picture}</div>`;
+    imgContainerEl.innerHTML += `<img class="w-25 d-block m-auto my-2" src="img/${membersArray[i].picture}">`;
 }
