@@ -48,13 +48,13 @@ const imgContainerEl = document.querySelector(".img-container");
 
 
 for (let i=0; i<membersArray.length; i++){
-    nameContainerEl.innerHTML += `<div class="text-center">${membersArray[i].fullName}</div>`;
+    nameContainerEl.innerHTML += `<div class="text-center py-5">${membersArray[i].fullName}</div>`;
 }
 
 for (let i=0; i<membersArray.length; i++){
-    roleContainerEl.innerHTML += `<div class="text-center">${membersArray[i].Role}</div>`;
+    roleContainerEl.innerHTML += `<div class="text-center py-5">${membersArray[i].Role}</div>`;
 }
 
 for (let i=0; i<membersArray.length; i++){
-    imgContainerEl.innerHTML += `<img class="w-25 d-block m-auto my-2" src="img/${membersArray[i].picture}">`;
+    imgContainerEl.innerHTML += `<img class="w-25 d-block m-auto my-4" src="img/${membersArray[i].picture}">`;
 }
